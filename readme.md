@@ -12,6 +12,13 @@ on [Twitter Sentiment](https://www.kaggle.com/datasets/kazanova/sentiment140). A
 ## Models
 
 ## Results
+|| Model Size | No. of Parameters | No. of Trainable Parameters | Training time per epoch | Train Accuracy | Val Accuarcy |
+| | | | | | |
+| Simple NN Model | | | | | | |
+| RNN Model | | | | | | |
+| GRU Model | | | | | | |
+| LSTM Model | | | | | | |
+| Convolution Model | | | | | | |
 
 ## Recommendations
 
