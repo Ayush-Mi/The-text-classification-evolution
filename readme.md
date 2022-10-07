@@ -11,6 +11,10 @@ on [Twitter Sentiment](https://www.kaggle.com/datasets/kazanova/sentiment140). A
 
 ## Models
 
+ Simple NN Model | RNN Model | GRU Model | LSTM Model | CNN Model 
+ :---: | :---: | :---: | :---: | :---: |
+ ![](https://github.com/Ayush-Mi/The-text-classification-evolution/blob/main/images/nn_model.png) | ![](https://github.com/Ayush-Mi/The-text-classification-evolution/blob/main/images/rnn_model.png) | ![](https://github.com/Ayush-Mi/The-text-classification-evolution/blob/main/images/gru_model.png) | ![](https://github.com/Ayush-Mi/The-text-classification-evolution/blob/main/images/lstm_model.png) | ![](https://github.com/Ayush-Mi/The-text-classification-evolution/blob/main/images/conv_model.png) |
+
 ## Results
 | | Model Size | No. of Parameters | No. of Trainable Parameters | Training time per epoch | Train Accuracy | Val Accuarcy |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
