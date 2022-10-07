@@ -3,11 +3,16 @@
 ## Description
 
 One of the basic problem statement in language models is clasifying text data, this repo analyzes five different deep learning algorithms for their efficiency
-on [Twitter Sentiment](https://www.kaggle.com/datasets/kazanova/sentiment140). All the trainings were performed on mac M1 pro with 32gb memory.
+on [Twitter Sentiment](https://www.kaggle.com/datasets/kazanova/sentiment140). All the trainings were performed on mac M1 pro with 32gb memory. [GloVe](https://nlp.stanford.edu/projects/glove/) embeddings with 100d was used in non trainable mode to represent the words. Although there are many state of the art model specific to NLP like BERT which are extemely powerful and complex but in this repos I have just explored the five basic models in language models.
 
 ## Dependencies
 
-## Methods
+- python 3.5+
+- tensorflow==2.9.2
+- csv==1.0
+- numpy==1.23.2
+- pandas==1.4.4
+- re==2.2.1
 
 ## Models
 
@@ -52,3 +57,4 @@ Accuracy Plot | Loss Plot
 
 ## Recommendations
 
+The pretrained word embeddings helps the model learn faster. The convolution network takes the least time to train and achieves a comparable accuracy with other methods. It takes a lot of time to train a LSTM or GRU based models. Many a times simple NN can perform better the other complex algorithms.
